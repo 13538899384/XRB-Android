@@ -4,20 +4,12 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
@@ -32,78 +24,6 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
@@ -116,12 +36,16 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
@@ -136,20 +60,8 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
@@ -160,11 +72,15 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color\\design_error.xml"
     }
 ]

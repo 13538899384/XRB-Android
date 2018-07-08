@@ -48,6 +48,10 @@ android {
         incremental true
         javaMaxHeapSize "4g"
     }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
 }
 
 repositories {
@@ -55,6 +59,7 @@ repositories {
         dirs 'libs'
     }
     maven { url "https://jitpack.io" }
+    maven { url "https://maven.google.com" }
     mavenCentral()
 }
 
@@ -69,15 +74,20 @@ dependencies {
     compile rootProject.ext.dependencies["SwipeDelMenuLayout"]
 //    compile files('libs/MobCommons-2016.1201.1839.jar')
 //    compile files('libs/MobTools-2016.1201.1839.jar')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'
-    compile 'com.contrarywind:Android-PickerView:3.2.5'
+//    compile 'com.contrarywind:Android-PickerView:3.2.5'
     compile 'com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0@aar'
     compile 'com.daimajia.slider:library:1.1.5@aar'
     compile 'com.android.support:multidex:1.0.1'
+    compile 'com.zhihu.android:matisse:0.4.3'
     compile 'com.orhanobut:logger:2.1.1'
     compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+//    compile 'com.github.arvinljw:PictureSelector:v2.0.1'
     testCompile 'junit:junit:4.12'
 }

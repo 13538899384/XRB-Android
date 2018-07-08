@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Toast;
 
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
@@ -143,6 +144,11 @@ public abstract class XActivity<P extends IPresent> extends RxAppCompatActivity 
 
     protected void log(String msg){
         Log.i(TAG, msg);
+    }
+
+    /** 显示**/
+    public void showToast(String text) {
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
 
 }

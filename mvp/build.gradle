@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.bumptech'
 
 group = 'com.github.limedroid'
 
@@ -46,6 +47,7 @@ dependencies {
     compile rootProject.ext.dependencies["rxlifecycle-android"]
     compile rootProject.ext.dependencies["rxlifecycle-components"]
     compile rootProject.ext.dependencies["rxpermissions"]
+    compile rootProject.ext.dependencies["glide"]
 }
 
 tasks.withType(JavaCompile) {

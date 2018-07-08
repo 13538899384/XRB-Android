@@ -4,10 +4,6 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
@@ -20,28 +16,12 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_edittext.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_spinner.xml",
@@ -56,27 +36,7 @@
         "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
         "merged": "F:\\MyProjects\\XRB-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\XQM\\.android\\build-cache\\cda956914c22f655425def2f6ac914c00128fd0f\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "F:\\MyProjects\\Ipbase-Android\\mvp\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\XQM\\.android\\build-cache\\e8e8625972d3f9c9cffd8f442e140a5cf983a192\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     }
 ]

@@ -1,10 +1,12 @@
 package com.ygip.xrb_android.mvp.homepage.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
@@ -13,6 +15,7 @@ import com.ygip.xrb_android.mvp.homepage.adapter.HomepageAdapter;
 import com.ygip.xrb_android.mvp.homepage.model.Dynamic;
 import com.ygip.xrb_android.mvp.search.present.MemberPresent;
 import com.ygip.xrb_android.mvp.search.view.MemberItemActivity;
+import com.ygip.xrb_android.util.StartActivityUtil;
 import com.ygip.xrb_android.util.XRecyclerViewUtil;
 
 import java.util.ArrayList;
@@ -20,6 +23,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import butterknife.Unbinder;
 import cn.droidlover.xdroidmvp.kit.Kits;
 import cn.droidlover.xdroidmvp.mvp.XLazyFragment;
@@ -39,6 +43,8 @@ public class HomePagerFragment extends XLazyFragment<MemberPresent> implements
     @BindView(R.id.toolbar)
     Toolbar toolbar;
     Unbinder unbinder;
+    @BindView(R.id.et_search)
+    EditText etSearch;
     private HomepageAdapter adapter;
     private List<Dynamic> dynamics = new ArrayList<>();
     private Dynamic dynamic;
@@ -151,5 +157,15 @@ public class HomePagerFragment extends XLazyFragment<MemberPresent> implements
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
+    }
+
+    @OnClick(R.id.ll_right_question)
+    public void onViewClicked() {
+        StartActivityUtil.startActivity(getActivity(),QuestionActivity.class);
+    }
+
+    @OnClick(R.id.et_search)
+    public void onSearchViewClicked() {
+        StartActivityUtil.startActivity(getActivity(),SearchActivity.class);
     }
 }

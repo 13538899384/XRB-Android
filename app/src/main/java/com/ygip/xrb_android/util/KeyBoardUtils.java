@@ -19,8 +19,7 @@ import com.ygip.xrb_android.App;
  * @author kesar
  * @date 2015年10月9日
  */
-public class KeyBoardUtils
-{
+public class KeyBoardUtils {
 	private InputMethodManager manager;
 
 	private OnResultHidden mResultHidden;

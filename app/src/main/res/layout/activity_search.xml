@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/mToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/C0"
+        app:popupTheme="@style/mToolbarPopupTheme"
+        app:theme="@style/mToolbarTheme"
+        app:titleTextAppearance="@style/mToolbarTitle">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@drawable/shape_white_corners">
+
+            <ImageView
+                android:id="@+id/iv_search_back"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/icon_back_left"/>
+
+            <EditText
+                android:layout_toRightOf="@+id/iv_search_back"
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_question"
+                android:textColor="@color/Y3"
+                android:layout_margin="4dp"
+                android:background="@color/C6"
+                android:textSize="@dimen/T4"/>
+
+            <ViewStub
+                android:id="@+id/vs_delete"
+                android:layout_marginRight="4dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout="@layout/viewstub_delete"
+                android:layout_marginLeft="4dp"/>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_question"-->
+                <!--android:layout_marginRight="4dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:layout_marginLeft="4dp"-->
+                <!--android:src="@mipmap/icon_delete"/>-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>
