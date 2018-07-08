@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/C6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/titlebar"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_sliding"-->
+        <!--android:layout_below="@+id/title_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@color/C6"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+            <!--<TextView-->
+                <!--android:id="@+id/principle"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textSize="@dimen/T3"-->
+                <!--android:text="负责人"-->
+                <!--android:background="@drawable/sel_bottombar_txt"-->
+                <!--/>-->
+            <!--&lt;!&ndash;<View&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="15dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="1px"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/shape_menber_view"/>&ndash;&gt;-->
+        <!--</RelativeLayout>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+            <!--<TextView-->
+                <!--android:id="@+id/operation"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textSize="@dimen/T3"-->
+                <!--android:text="运维部"-->
+                <!--android:background="@drawable/sel_bottombar_txt"-->
+                <!--/>-->
+            <!--&lt;!&ndash;<View&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="15dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="1px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/shape_menber_view"/>&ndash;&gt;-->
+        <!--</RelativeLayout>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+            <!--<TextView-->
+                <!--android:id="@+id/product"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textSize="@dimen/T3"-->
+                <!--android:text="产品部"-->
+                <!--android:background="@drawable/sel_bottombar_txt"-->
+                <!--/>-->
+            <!--&lt;!&ndash;<View&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="15dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="1px"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/shape_menber_view"/>&ndash;&gt;-->
+        <!--</RelativeLayout>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+            <!--<TextView-->
+                <!--android:id="@+id/research"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textSize="@dimen/T3"-->
+                <!--android:text="研发部"-->
+                <!--android:background="@drawable/sel_bottombar_txt"-->
+
+                <!--/>-->
+            <!--&lt;!&ndash;<View&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="15dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="1px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/shape_menber_view"/>&ndash;&gt;-->
+        <!--</RelativeLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="照片"
+             />
+    </LinearLayout>
+
+
+    <View
+        android:background="@color/C4"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <cn.droidlover.xrecyclerview.XRecyclerContentLayout
+        android:id="@+id/xRecyclerContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="C0">#0084ff</color><!--主色-->
+    <color name="C1">#64b3f1</color><!--辅助色-->
+    <color name="C2">#e8f0fe</color><!--辅助色-->
+    <color name="C3">#45cb7f</color><!--辅助色-->
+    <color name="C4">#babad6</color><!--辅助色-->
+    <color name="C5">#cccccc</color><!--辅助色-->
+    <color name="C6">#ffffff</color><!--辅助色-->
+    <color name="C7">#e7e7e7</color><!--辅助色-->
+    <color name="C8">#ffffff</color><!--辅助色-->
+    <color name="C9">#e7e7e7</color><!--辅助色-->
+    <color name="Y0">#282828</color><!--一级文字-->
+    <color name="Y1">#8c8c8c</color><!--二级文字-->
+    <color name="Y2">#d3d3d3</color><!--说明文字-->
+    <color name="Y3">#999999</color><!--说明/输入框文字-->
+    <color name="Y4">#fe6270</color><!--危险操作文字-->
+    <color name="Y5">#4e5257</color><!--顶部导航-->
+    <color name="Y6">#4c566c</color><!--链接一级文字-->
+    <color name="Y7">#444444</color><!--文章正文-->
+    <color name="Y8">#9596ab</color><!--顶部标签栏文字-->
+    <color name="Y9">#ffffff</color><!--反白文字-->
+
+    <color name ="grayf0f">#f0f0f0</color>
+
+    <color name="graye6e">#e6e6e6</color>
+
+    <color name="gray7f7">#7f7f7f</color>
+
+    <!--微信的titlebar颜色-->
+    <color name="gray393">#393a3f</color>
+</resources>

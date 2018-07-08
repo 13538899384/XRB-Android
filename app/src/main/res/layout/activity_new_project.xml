@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.ygip.xrb_android.mvp.find.view.NewProjectActivity">
+
+    <include layout="@layout/titlebar"></include>
+
+    <ScrollView
+        android:id="@+id/newProject_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_marginLeft="@dimen/T3"
+                android:layout_marginRight="@dimen/T3"
+                android:layout_marginTop="5dp"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="85sp"
+                    android:layout_height="wrap_content"
+                    android:text="项目名称"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/newProject_projectName"
+                    style="@style/AppTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="35sp"
+                    android:textSize="15sp"
+                    android:background="@android:drawable/editbox_background_normal" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/T3"
+                android:layout_marginRight="@dimen/T3"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="85sp"
+                    android:layout_height="wrap_content"
+                    android:text="项目LOGO"
+                    android:textSize="15sp" />
+
+                <me.iwf.photopicker.widget.MultiPickResultView
+                    android:id="@+id/newProject_select_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </me.iwf.photopicker.widget.MultiPickResultView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_marginLeft="@dimen/T3"
+                android:layout_marginRight="@dimen/T3"
+                android:layout_marginTop="5dp"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="85sp"
+                    android:layout_height="wrap_content"
+                    android:text="项目类型"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/newproject_sp_project_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:entries="@array/defaultSpinner"
+                    android:spinnerMode="dropdown"
+                    android:gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/T3"
+                android:layout_marginRight="@dimen/T3"
+                android:layout_marginTop="5dp"
+                android:gravity="start|center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="85sp"
+                    android:layout_height="wrap_content"
+                    android:text="项目成员"
+                    android:textSize="15sp" />
+                <LinearLayout
+                    android:id="@+id/newproject_ll_project_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/newproject_ll_add_project_member"
+
+                    android:scaleType="center"
+                    android:src="@android:drawable/ic_menu_add"
+                    android:background="@android:color/white"
+                    android:tint="@color/C9"
+                    android:layout_gravity="end"
+                    android:layout_width="35sp"
+                    android:layout_height="35sp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <DatePicker
+                    android:id="@+id/newProject_DatePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="spinner"
+                    android:calendarViewShown="false"
+                    ></DatePicker>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

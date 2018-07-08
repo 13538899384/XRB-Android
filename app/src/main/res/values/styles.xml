@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="toolbarNavigationButtonStyle">@style/mToolbarNavigationButtonStyle</item>
+        <item name="colorPrimary">@color/C0</item>
+        <item name="colorPrimaryDark">@color/C0</item>
+        <item name="colorAccent">@color/C1</item>
+    </style>
+    !--Toolbar Navigation Button Sytle-->
+    <style name="mToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">40dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!--Custom Toolbar Style -->
+    <style name="mToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <!-- 设置该属性解决Toolbar左边空白 默认为16dp-->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="titleMargin">0dp</item>
+        <!--Toolbar Button min Height.Suggest use 0dp,
+            also can use your Toolbar's Height-->
+        <item name="android:minHeight">0dp</item>
+        <!--Toolbar Button Max height.
+            Suggest use size <= your custom Toolbar's Height-->
+        <item name="maxButtonHeight">100dp</item>
+    </style>
+
+    <!--Custom Toolbar Theme -->
+    <style name="mToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Toolbar 标题文字颜色 包括navigation search等icon颜色-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <!-- Toolbar 弹出菜单样式 -->
+    <style name="mToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!-- 菜单背景色 -->
+        <item name="android:colorBackground">@android:color/black</item>
+        <!-- 菜单文字色 -->
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <!-- 菜单字体 -->
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Toolbar 标题样式 -->
+    <style name="mToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="floatlabelededittext">
+        <item name="android:textColor">#5d9ff5</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/C3</item>
+        <item name="colorControlActivated">@color/C0</item>
+    </style>
+
+    <style name="popwindow_anim_bottom_style">
+        <item name="android:windowEnterAnimation">@anim/anim_enter_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_exit_bottom</item>
+    </style>
+
+    <style name="TRM_ANIM_STYLE">
+        <item name="android:windowEnterAnimation">@anim/trm_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/trm_popup_exit</item>
+    </style>
+
+</resources>

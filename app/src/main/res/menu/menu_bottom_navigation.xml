@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_news"
+        android:icon="@mipmap/icon_homepage"
+        android:title="首页" />
+    <item
+        android:id="@+id/item_lib"
+        android:icon="@mipmap/icon_query"
+        android:title="查询" />
+    <item
+        android:id="@+id/item_find"
+        android:icon="@mipmap/icon_find"
+        android:title="发现" />
+    <item
+        android:id="@+id/item_more"
+        android:icon="@mipmap/icon_mine"
+        android:title="我的" />
+</menu>

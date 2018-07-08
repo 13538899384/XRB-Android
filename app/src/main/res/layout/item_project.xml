@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+
+
+    android:id="@+id/ll_projectitem"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        >
+        <ImageView
+            android:id="@+id/iv_project_headimg"
+            android:src="@drawable/jidilogo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/C2"
+                    android:textSize="@dimen/T3"
+                    android:layout_marginTop="5dp"
+                    android:text="项目"
+                    android:maxWidth="180dp"
+                    android:ellipsize="end"
+                    android:layout_width="@dimen/T3X3"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_project_name"
+                    android:textColor="@color/C6"
+                    android:textSize="@dimen/T3"
+                    android:text="这里是项目标题"
+                    android:background="@drawable/shape_member_text"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/C2"
+                    android:textSize="@dimen/T3"
+                    android:text="负责人"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="@dimen/T3X3"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_project_leader"
+                    android:textColor="@color/C6"
+                    android:textSize="@dimen/T3"
+                    android:text="hhhhhhhh"
+                    android:background="@drawable/shape_member_text"
+                    android:layout_marginLeft="12dp"
+                    android:padding="2dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

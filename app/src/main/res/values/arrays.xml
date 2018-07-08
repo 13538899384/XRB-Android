@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="defaultSpinner">
+    <item >请选择</item>
+    <item >APP</item>
+    <item >网站</item>
+    <item >科研类项目</item>
+
+</string-array>
+</resources>
