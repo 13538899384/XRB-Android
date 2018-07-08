@@ -1,5 +1,6 @@
 package com.ygip.xrb_android.weight;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -50,6 +51,7 @@ public class HorizontalProgressBar extends ProgressBar {
          obtainStyledAttrs(attrs);
     }
 
+    @SuppressLint("ResourceAsColor")
     private void obtainStyledAttrs(AttributeSet attrs) {
         TypedArray mTypedArray = getContext().obtainStyledAttributes(attrs,R.styleable.HorizontalProgressBar);
 
@@ -103,20 +105,20 @@ public class HorizontalProgressBar extends ProgressBar {
         }
         float endX = progressX - mTextOffset/2;
         if (endX > 0){
-            mPaint.setColor(mReachColor);
+            mPaint.setColor(getResources().getColor(mReachColor));
             mPaint.setStrokeWidth(mRealWidth);
             canvas.drawLine(0,0,endX,0,mPaint);
         }
 
         //draw Text
-        mPaint.setColor(mTextColor);
+        mPaint.setColor(getResources().getColor(mTextColor));
         int y = (int) (-(mPaint.descent() + mPaint.ascent())/2);
         canvas.drawText(text,progressX,y,mPaint);
 
         //draw unreach bar
         if (!noNeedUnRech){
             float start = progressX + mTextOffset/2 +textWidth;
-            mPaint.setColor(mUnReachColor);
+            mPaint.setColor(getResources().getColor(mUnReachColor));
             mPaint.setStrokeWidth(mUnReachHeight);
             canvas.drawLine(start,0,mRealWidth,0,mPaint);
         }

@@ -73,18 +73,18 @@ public class RoundProgresssBar extends HorizontalProgressBar {
         canvas.translate(getPaddingLeft() + mMaxPaintWidth/2,getPaddingTop() + mMaxPaintWidth/2);
         mPaint.setStyle(Paint.Style.STROKE);
         //draw unreach bar
-        mPaint.setColor(mUnReachColor);
+        mPaint.setColor(getResources().getColor(mUnReachColor));
         mPaint.setStrokeWidth(mUnReachHeight);
         canvas.drawCircle(radius,radius,radius,mPaint);
 
         //draw reach bar
-        mPaint.setColor(mReachColor);
+        mPaint.setColor(getResources().getColor(mReachColor));
         mPaint.setStrokeWidth(mReachHeight);
         float sweepAngle = getProgress()*1.0f/getMax()*360;
         canvas.drawArc(new RectF(0,0,radius*2,radius*2),0,sweepAngle,false,mPaint);
 
         //draw text
-        mPaint.setColor(mTextColor);
+        mPaint.setColor(getResources().getColor(mTextColor));
         mPaint.setStyle(Paint.Style.FILL);
         canvas.drawText(text,radius-textWidth/2,radius-textHeight,mPaint);
 
