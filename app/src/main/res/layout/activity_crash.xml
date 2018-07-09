@@ -18,6 +18,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/textMessage"
@@ -27,10 +28,12 @@
             android:layout_marginRight="10dp"
             android:gravity="left|center"
             android:text="提问"
+            android:textSize="@dimen/T3"
             android:alpha="0.8"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/tv_className"
+            android:textSize="@dimen/T3"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginLeft="10dp"
@@ -48,6 +51,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
 
         <TextView
@@ -59,6 +63,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/tv_exceptionType"
@@ -69,6 +74,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/tv_fullException"
@@ -78,6 +84,7 @@
             android:layout_marginRight="10dp"
             android:gravity="left|center"
             android:text="提问"
+            android:textSize="@dimen/T3"
             android:alpha="0.8"
             android:textColor="@color/Y0"/>
         <TextView
@@ -89,6 +96,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/tv_model"
@@ -99,6 +107,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
         <TextView
             android:id="@+id/tv_brand"
@@ -109,6 +118,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
 
         <TextView
@@ -120,6 +130,7 @@
             android:gravity="left|center"
             android:text="提问"
             android:alpha="0.8"
+            android:textSize="@dimen/T3"
             android:textColor="@color/Y0"/>
     </LinearLayout>
 

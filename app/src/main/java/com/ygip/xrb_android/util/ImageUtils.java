@@ -28,13 +28,13 @@ public class ImageUtils {
 //        }
 //    };
     // 根据路径获得图片并压缩，返回bitmap用于显示
-    public static Bitmap getSmallBitmap(String filePath) {
+    public static Bitmap getSmallBitmap(String filePath,int reqWidth,int reqHeight) {
         final BitmapFactory.Options options = new BitmapFactory.Options();
         options.inJustDecodeBounds = true;
         BitmapFactory.decodeFile(filePath, options);
 
         // Calculate inSampleSize
-        options.inSampleSize = calculateInSampleSize(options, 480, 800);
+        options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
 
         // Decode bitmap with inSampleSize set
         options.inJustDecodeBounds = false;
@@ -49,9 +49,12 @@ public class ImageUtils {
         int inSampleSize = 1;
 
         if (height > reqHeight || width > reqWidth) {
-            final int heightRatio = Math.round((float) height/ (float) reqHeight);
-            final int widthRatio = Math.round((float) width / (float) reqWidth);
-            inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
+            final int halfHeight = Math.round((float) height/ (float) reqHeight);
+            final int halfWidth= Math.round((float) width / (float) reqWidth);
+            while ((halfHeight / inSampleSize) >= reqHeight && (halfWidth / inSampleSize) >= reqWidth){
+                inSampleSize *= 2;
+            }
+//            inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
         }
         return inSampleSize;
     }
@@ -81,7 +84,7 @@ public class ImageUtils {
         for (int i = 0;i<filePath.size();i++){
             try {
                 if (!("").equals(filePath.get(i))){
-                    bitmap = getSmallBitmap(filePath.get(i));
+                    bitmap = getSmallBitmap(filePath.get(i),480,800);
                     outputStream = new ByteArrayOutputStream();
                     bitmap.compress(Bitmap.CompressFormat.PNG, 40, outputStream);
                     outputStream.flush();

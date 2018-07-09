@@ -2,9 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <include layout="@layout/titlebar_main"/>
+
+    <EditText
+        android:hint="请输入标题"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/dp10"
+        android:textColor="@color/Y0"
+        android:alpha="0.8"
+        android:textSize="@dimen/T1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <com.ygip.xrb_android.weight.RichTextEditor
         android:id="@+id/et_new_content"
@@ -13,6 +25,6 @@
         app:rt_editor_image_height="500"
         app:rt_editor_image_bottom="10"
         app:rt_editor_text_init_hint="在这里输入内容"
-        app:rt_editor_text_size="16"
-        app:rt_editor_text_color="@color/colorAccent"/>
+        app:rt_editor_text_size="18"
+        app:rt_editor_text_color="@color/Y1"/>
 </LinearLayout>

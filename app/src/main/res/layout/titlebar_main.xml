@@ -21,6 +21,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:clickable="true"
+            android:layout_marginLeft="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -46,13 +47,14 @@
 
         <TextView
             android:id="@+id/ll_mine_title"
-            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/ll_group"
             android:textSize="@dimen/T2"
             android:textColor="@color/Y9"
             android:text="提问"
-            android:alpha="0.8"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
 
         <!--<LinearLayout-->
             <!--android:id="@+id/ll_mine_title"-->
@@ -72,23 +74,24 @@
             android:layout_centerInParent="true">
             <TextView
                 android:id="@+id/tv_next"
-                android:textSize="@dimen/T2"
+                android:textSize="@dimen/T3"
                 android:textColor="@color/Y9"
                 android:text="下一步"
+                android:gravity="center"
                 android:layout_marginRight="4dp"
                 android:alpha="0.8"
                 android:layout_alignParentRight="true"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="match_parent" />
 
             <ImageView
                 android:layout_toLeftOf="@+id/tv_next"
                 android:id="@+id/iv_select_pic"
                 android:visibility="visible"
-                android:layout_marginRight="4dp"
-                android:src="@mipmap/icon_delete"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/icon_pic"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_centerInParent="true" />
 
             <ImageView

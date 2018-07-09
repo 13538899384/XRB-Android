@@ -7,13 +7,6 @@ import android.widget.Button;
 
 import com.ygip.xrb_android.R;
 
-
-/**
- * @author zhijian
- * @Description:
- * @date 2017/1/22
- */
-
 public class AlertDialogV7 {
 
     private Context mContext;
@@ -62,7 +55,7 @@ public class AlertDialogV7 {
     public AlertDialogV7 setNegBtnTxtCol(){
         if (mAlertDialog == null) return this;
         Button btn_negative = mAlertDialog.getButton(AlertDialog.BUTTON_NEGATIVE);
-        btn_negative.setTextColor(mContext.getResources().getColor(R.color.C2));
+        btn_negative.setTextColor(mContext.getResources().getColor(R.color.C4));
         return this;
     }
 }

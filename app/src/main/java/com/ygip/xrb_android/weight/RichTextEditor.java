@@ -3,6 +3,7 @@ package com.ygip.xrb_android.weight;
 import android.animation.LayoutTransition;
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -22,13 +23,14 @@ import android.widget.ScrollView;
 
 import com.bumptech.glide.Glide;
 import com.ygip.xrb_android.R;
+import com.ygip.xrb_android.util.SDCardUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class RichTextEditor extends ScrollView {
     private Activity activity;
-    private static final int EDIT_PADDING = 10; // edittext常规padding是10dp
+    private static final int EDIT_PADDING = 5; // edittext常规padding是10dp
     //private static final int EDIT_FIRST_PADDING_TOP = 10; // 第一个EditText的paddingTop值
     //private static final int BOTTOM_MARGIN = 10;
 
@@ -49,11 +51,11 @@ public class RichTextEditor extends ScrollView {
     //插入的图片显示高度
     private int rtImageHeight = 500;
     //两张相邻图片间距
-    private int rtImageBottom = 10;
+    private int rtImageBottom = 4;
     //文字相关属性，初始提示信息，文字大小和颜色
     private String rtTextInitHint = "请输入内容";
-    private int rtTextSize = 16;
-    private int rtTextColor = Color.parseColor("#757575");
+    private int rtTextSize = 14;
+    private int rtTextColor = getResources().getColor(R.color.Y1);
 
     //删除图片的接口
     private OnRtImageDeleteListener onRtImageDeleteListener;
@@ -75,7 +77,7 @@ public class RichTextEditor extends ScrollView {
         rtImageHeight = ta.getInteger(R.styleable.RichTextEditor_rt_editor_image_height, 500);
         rtImageBottom = ta.getInteger(R.styleable.RichTextEditor_rt_editor_image_bottom, 10);
         //rtTextSize = ta.getDimensionPixelSize(R.styleable.RichTextEditor_rt_editor_text_size, getResources().getDimensionPixelSize(R.dimen.text_size_16));
-        rtTextSize = ta.getInteger(R.styleable.RichTextView_rt_view_text_size, 16);
+        rtTextSize = ta.getInteger(R.styleable.RichTextView_rt_view_text_size, 18);
         rtTextColor = ta.getColor(R.styleable.RichTextEditor_rt_editor_text_color, Color.parseColor("#757575"));
         rtTextInitHint = ta.getString(R.styleable.RichTextEditor_rt_editor_text_init_hint);
 
@@ -228,13 +230,34 @@ public class RichTextEditor extends ScrollView {
                 //TODO 通过接口回调，在笔记编辑界面处理图片的删除操作
                 onRtImageDeleteListener.onRtImageDelete(editData.imagePath);
             }
+            showDeleteDialog(editData.imagePath,allLayout,view);
             //SDCardUtil.deleteFile(editData.imagePath);
-            imagePaths.remove(editData.imagePath);
+//            imagePaths.remove(editData.imagePath);
         }
-        allLayout.removeView(view);
-        mergeEditText();//合并上下EditText内容
+//        allLayout.removeView(view);
+//        mergeEditText();//合并上下EditText内容
         //}
     }
+
+    private void showDeleteDialog(String imagePath, LinearLayout allLayout, View view) {
+        new AlertDialogV7(getContext()).setMsg("确定要删除这张图片吗？")
+                .setPosBtn("删除", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        boolean isOk = SDCardUtil.deleteFile(imagePath);
+                        imagePaths.remove(imagePath);
+                        allLayout.removeView(view);
+                        mergeEditText();//合并上下EditText内容
+                    }
+                })
+                .setNegBtn("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                    }
+                }).show().setNegBtnTxtCol().setPosBtnTxtCol();
+
+    }
+
 
     /**
      * 处理图片点击事件
@@ -374,7 +397,7 @@ public class RichTextEditor extends ScrollView {
      *            EditText显示的文字
      */
     public void addEditTextAtIndex(final int index, CharSequence editStr) {
-        EditText editText2 = createEditText("插入文字", EDIT_PADDING);
+        EditText editText2 = createEditText("输入内容", EDIT_PADDING);
         //判断插入的字符串是否为空，如果没有内容则显示hint提示信息
         if (editStr != null && editStr.length() > 0){
             editText2.setText(editStr);

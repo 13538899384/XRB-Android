@@ -70,6 +70,7 @@ dependencies {
     compile rootProject.ext.dependencies["FlycoTabLayout_Lib"]
     compile rootProject.ext.dependencies["MPAndroidChart"]
     compile rootProject.ext.dependencies["fastjson"]
+    compile rootProject.ext.dependencies["rxjava"]
     compile project(':mvp')
     compile rootProject.ext.dependencies["SwipeDelMenuLayout"]
 //    compile files('libs/MobCommons-2016.1201.1839.jar')
